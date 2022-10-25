@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.login {
+    width: 600px;
+    background: #ebeaf4;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: 'calibri';
+    color: rgb(24, 6, 6);
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+
+    
+}
+
+.login h1 {
+    font-size: 25px;
+    font-family: cursive  ;
+    margin-bottom: 20px;
+}
+
+.login h4 {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.box {
+    width: 100%;
+    background: #dae1e7;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fff;
+    color: rgb(12, 1, 1);
+}
+
+.boton {
+
+    color: whitesmoke;
+    position: relative;
+    width: 85px;
+    height: 40px;
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid #a508c1;
+    background: linear-gradient(15deg, #25645c, #cd1fad);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box1 {
+    margin-bottom: 10px;
+    font-size: 10px;
+
+}
+
+.login p a {
+    text-decoration: none;
+   
+}
+
+::placeholder {
+    color: blue;
+    font-size: 1.5em;
+  }
